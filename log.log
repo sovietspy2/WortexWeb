@@ -1,0 +1,141 @@
+INFO:root:Started
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:03:48] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:03:52] "GET /login HTTP/1.1" 200 -
+INFO:root:unsuccesful user search with name: qkac@
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:04:01] "POST /login HTTP/1.1" 200 -
+INFO:root:Started
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:09:13] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:09:14] "GET /login HTTP/1.1" 200 -
+INFO:root:Started
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:09:42] "GET /login HTTP/1.1" 200 -
+INFO:root:Password acquired from db for qkac@mail.com
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:11:33] "POST /login HTTP/1.1" 200 -
+INFO:root:Started
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:15:31] "GET /login HTTP/1.1" 200 -
+INFO:root:Password acquired from db for qkac@mail.com
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:16:11] "POST /login HTTP/1.1" 200 -
+INFO:root:Started
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:17:12] "GET /login HTTP/1.1" 200 -
+INFO:root:Password acquired from db for qkac@mail.com
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:17:17] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:17:17] "GET /protected HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:17:34] "GET /protected HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:22:44] "GET /login HTTP/1.1" 200 -
+INFO:root:Password acquired from db for qkac@mail.com
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:23:38] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:23:39] "GET /protected HTTP/1.1" 200 -
+INFO:root:Started
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Started
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:26:49] "GET /login HTTP/1.1" 200 -
+INFO:root:Password acquired from db for qkac@mail.com
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:26:54] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:26:54] "GET /protected HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:28:03] "GET / HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:33:44] "GET / HTTP/1.1" 200 -
+INFO:root:Password acquired from db for qkac@mail.com
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:33:49] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:33:50] "GET /protected HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:34:00] "GET / HTTP/1.1" 200 -
+INFO:root:unsuccesful user search with name: qkac@mail.coma
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:34:02] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:34:05] "GET /login HTTP/1.1" 200 -
+INFO:root:Password acquired from db for qkac@mail.com
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:34:20] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:34:27] "GET /protected HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\DAO.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\DAO.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\DAO.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:38:55] "GET /protected HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:39:49] "GET /logout HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:39:58] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Password acquired from db for qkac@mail.com
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:40:06] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:40:12] "GET /protected HTTP/1.1" 200 -
