@@ -73,7 +73,7 @@ def login():
         flask_login.login_user(user)
         flask.flash('You successfully logged in!')
         return flask.redirect(flask.url_for('index'))
-    WortexLogger.logging.error("Passwords didnt match: {} and {}".format(PasswordHasher.get_hashed_pasword(password_input)),password_in_db)
+    WortexLogger.logging.error("Passwords didnt match: {} and {}".format(PasswordHasher.get_hashed_pasword(password_input),password_in_db))
     return 'Bad login'
 
 
