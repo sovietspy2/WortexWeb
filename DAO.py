@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*-
 import pymongo
 from pymongo import MongoClient
 import WortexLogger as w
