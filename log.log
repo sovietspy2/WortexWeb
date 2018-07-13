@@ -139,3 +139,101 @@ INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 INFO:root:Password acquired from db for qkac@mail.com
 INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:40:06] "POST /login HTTP/1.1" 302 -
 INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:40:12] "GET /protected HTTP/1.1" 200 -
+INFO:root:Started
+INFO:root:Started
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:10:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:10:45] "GET /protected HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:10:49] "GET /logout HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:10:52] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:11:45] "POST /register HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:11:46] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:11:46] "GET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:11:46] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:11:46] "GET /register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:11:46] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:11:46] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:13:31] "GET /registe HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:13:46] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:14:07] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\DAO.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:18:46] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:18:49] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:19:32] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:19:32] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:19:43] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:20:00] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:20:09] "POST /register HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:20:09] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:20:09] "GET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:20:09] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:20:09] "GET /register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:20:09] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:20:10] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:20:25] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:20:25] "GET /register HTTP/1.1" 200 -

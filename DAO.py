@@ -3,7 +3,7 @@ from pymongo import MongoClient
 import WortexLogger as w
 
 
-connection = MongoClient('',27017)
+connection = MongoClient('94.177.218.154',27017)
 db = connection['local']
 # Get the sampleDB database
 
@@ -25,3 +25,8 @@ def get_users():
     for item in items:
         emails.append(item["email"])
     return emails
+
+def save_user(user):
+    collection = db['users']
+    id = collection.insert_one(user).inserted_id
+    return id

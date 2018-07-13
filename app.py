@@ -3,6 +3,7 @@ import DAO as dao
 import PasswordHasher
 import flask_login
 import WortexLogger
+import Register as reg
 
 app = flask.Flask(__name__)
 app.secret_key = 'super secret string'  # Change this!
@@ -88,6 +89,21 @@ def logout():
 def unauthorized_handler():
     return 'Unauthorized'
 
+
+@app.route('/register', methods=['GET', 'POST'])
+def register():
+    form = reg.RegistrationForm(flask.request.form)
+    if flask.request.method == 'POST' and form.validate():
+        user = {}
+        #db_session.add(user)
+        user['name'] = form.username.data
+        user['email'] = form.password.data
+        user['password'] = PasswordHasher.get_hashed_pasword(form.password.data)
+        success = dao.save_user(user)
+        if success: flask.flash('Thanks for registering')
+        else: return "error during registration"
+        return flask.redirect(flask.url_for('protected'))
+    return flask.render_template('register.html', form=form)
 
 if __name__ == '__main__':
     app.run(debug=True)
