@@ -30,3 +30,13 @@ def save_user(user):
     collection = db['users']
     id = collection.insert_one(user).inserted_id
     return id
+
+def get_user_by_name(email):
+    collection = db['users']
+    item = collection.find_one({"email": email})
+    return item
+
+
+def other_user_is_valid(email):
+    ''' Ha van már váltottak üzenet A és B b email címe a param'''
+    return True
