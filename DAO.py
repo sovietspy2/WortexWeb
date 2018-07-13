@@ -3,7 +3,7 @@ from pymongo import MongoClient
 import WortexLogger as w
 
 
-connection = MongoClient('94.177.218.154',27017)
+connection = MongoClient('localhost',27017)
 db = connection['local']
 # Get the sampleDB database
 
