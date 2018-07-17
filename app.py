@@ -191,5 +191,6 @@ def eggs_add():
 
 if __name__ == '__main__':
     WortexLogger.logging.info("__main__")
-    app.run(host=config.settings['HOST'], debug=config.settings['DEBUG'])
+    app.run(host=config.settings['HOST'], debug=config.settings['DEBUG'], port=config.settings['PORT'])
+
 

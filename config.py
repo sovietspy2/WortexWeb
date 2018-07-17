@@ -6,4 +6,5 @@ settings = {
     #'DB':'94.177.218.154',
     'HOST':'0.0.0.0', # for debug
     'DEBUG': False,
+    'PORT':8000,
 }
