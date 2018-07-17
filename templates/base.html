@@ -17,6 +17,21 @@
     <h5 class="my-0 mr-md-auto font-weight-normal">Wortex.stream</h5>
     <nav class="my-2 my-md-0 mr-md-3">
 {#        <a class="p-2 text-dark" href="#">Services</a>#}
+        {%  if g.user %}
+
+            <a class="p-2 dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              Services
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="{{ url_for("eggs") }}">Egg</a>
+              <a class="dropdown-item" href="#">Soon</a>
+            </div>
+
+        {% endif %}
+
+        {% if g.user %}
+            <a class="p-2 text-dark" href="{{ url_for('messages') }}">super service</a>
+        {% endif %}
         {% if g.user %}
             <a class="p-2 text-dark" href="{{ url_for('messages') }}">Send message</a>
         {% endif %}
@@ -30,6 +45,7 @@
     {% if g.user %}
             <a class="btn btn-outline-danger" href="{{ url_for('logout') }}">Logout</a>
     {% endif %}
+
 
 </div>
 

@@ -1,0 +1,118 @@
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.js"></script>
+
+{% extends 'base.html' %}
+
+
+
+{% block header %}
+ {% block title %}
+    Eggz
+  {% endblock %}
+
+
+{% endblock %}
+
+{% block content %}
+  <div class="container">
+    <div class="row">
+  {% if last_7_days %}
+      <table class="table">
+          <thead>
+            <tr>
+              <th scope="col">num of eggs</th>
+              <th scope="col">Day</th>
+              <th scope="col">Time</th>
+              <th scope="col">Person</th>
+            </tr>
+          </thead>
+          <tbody>
+      {% for day in last_7_days %}
+         <tr>
+          <th scope="row">{{ day.eggs }}</th>
+          <td>{{ day.day }}</td>
+          <td>{{ day.time }}</td>
+          <td>{{ day.person }}</td>
+        </tr>
+      {% endfor %}
+        </tbody>
+       </table>
+    {% endif %}
+    </div>
+    <div class="row">
+        <a role="button" href="{{ url_for("eggs_add") }}" class="btn btn-primary">Add new</a>
+    </div>
+    <div class="row">
+        <div class="col-sm-6">
+            <canvas id="myChart" width="400" height="400"></canvas>
+        </div>
+        <div class="col-sm-6">
+            <canvas id="line-chart" width="800" height="450"></canvas>
+        </div>
+
+    </div>
+    </div>
+<script>
+var ctx = document.getElementById("myChart").getContext('2d');
+var myChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+        labels: {{ days|safe }},
+        datasets: [{
+            label: '# of eggs',
+            data: {{ eggs|safe }},
+            backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(255, 206, 86, 0.2)',
+                'rgba(75, 192, 192, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(153, 102, 255, 0.2)',
+                'rgba(255, 159, 64, 0.2)'
+            ],
+            borderColor: [
+                'rgba(255,99,132,1)',
+                'rgba(54, 162, 235, 1)',
+                'rgba(255, 206, 86, 1)',
+                'rgba(75, 192, 192, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(153, 102, 255, 1)',
+                'rgba(255, 159, 64, 1)'
+            ],
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            yAxes: [{
+                ticks: {
+                    beginAtZero:true
+                }
+            }]
+        }
+    }
+});
+</script>
+{# második chart #}
+<script>
+    new Chart(document.getElementById("line-chart"), {
+  type: 'line',
+  data: {
+    labels: {{ days|safe }},
+    datasets: [{
+        data: {{ eggs|safe }},
+        label: "eggs",
+        borderColor: "#3e95cd",
+        fill: false
+      }
+    ]
+  },
+  options: {
+    title: {
+      display: true,
+      text: 'egg line chart'
+    }
+  }
+});
+</script>
+{% endblock %}

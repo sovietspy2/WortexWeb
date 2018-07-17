@@ -1,3 +1,8 @@
 #login_container {
     max-width:300px;
 }
+
+#myChart {
+    max-width: 400px;
+    max-height: 400px;
+}

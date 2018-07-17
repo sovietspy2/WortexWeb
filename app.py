@@ -7,6 +7,8 @@ import flask_login
 import WortexLogger
 import Register as reg
 from flask import g
+import datetime
+import config
 
 app = flask.Flask(__name__)
 app.secret_key = 'super secret string'  # Change this!!!!!!!!!!!!!!!
@@ -72,6 +74,7 @@ def login():
         g.user = email
         flask_login.login_user(user)
         flask.flash('You successfully logged in!')
+        WortexLogger.logging.info("someone logged in! (main)")
         return flask.redirect(flask.url_for('index'))
     WortexLogger.logging.error("Passwords didnt match: {} and {}".format(PasswordHasher.get_hashed_pasword(password_input),password_in_db))
     return 'Bad login'
@@ -145,6 +148,48 @@ def messages2(other_user):
         print(other_user)
         return flask.render_template('conversation.html')
 
+@app.route('/eggs')
+@flask_login.login_required
+def eggs():
+    last = list(dao.load_eggs(flask_login.current_user.id))
+    # data = [
+    #     {
+    #         "num":"23",
+    #         "day":"thuesday",
+    #         "time":"19:12",
+    #         "person":"Verus"
+    #     }
+    # ]
+    days_for_chart = ["monday","thuesday","wednesday","thurstday","friday","saturday","sunday"]
+    days_eggs = [0,1,2,3,4,5,6]
+    days_eggs = [item['eggs'] for item in last ]
+    days_for_chart = [item['day'] for item in last]
+    return flask.render_template("eggs.html", last_7_days = last, days=days_for_chart, eggs=days_eggs)
+
+@app.route('/eggs/add', methods=['GET',"POST"])
+@flask_login.login_required
+def eggs_add():
+    if flask.request.method == 'POST':
+        gyujtes = {}
+        gyujtes['day'] = flask.request.form['day']
+        gyujtes['time'] = flask.request.form['time']
+        gyujtes['person'] = flask.request.form['person']
+        gyujtes['eggs'] = flask.request.form['eggs']
+        gyujtes['owner_email'] = flask_login.current_user.id
+        gyujtes['date'] = datetime.datetime.now()
+        dao.save_eggs(gyujtes)
+        WortexLogger.logging.info(gyujtes)
+
+        #return flask.render_template("eggs.html")
+        return flask.redirect(flask.url_for('eggs'))
+
+    else:
+        now = datetime.datetime.now()
+        day = now.strftime("%A")
+        time = now.strftime('%I:%M:%S %p')
+        return flask.render_template("eggs_add.html",day=day, time=time)
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0')
+    WortexLogger.logging.info("__main__")
+    app.run(config.settings['APP_SETTINGS'])
+

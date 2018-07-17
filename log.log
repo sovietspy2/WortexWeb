@@ -1,1169 +1,717 @@
 INFO:root:Started
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:03:48] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:03:52] "GET /login HTTP/1.1" 200 -
-INFO:root:unsuccesful user search with name: qkac@
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:04:01] "POST /login HTTP/1.1" 200 -
-INFO:root:Started
+INFO:root:__main__
 INFO:werkzeug: * Restarting with stat
 INFO:root:Started
+INFO:root:__main__
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 293-394-682
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:09:13] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:09:14] "GET /login HTTP/1.1" 200 -
-INFO:root:Started
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:09:42] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:14:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:14:50] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:14:51] "GET /static/background.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:14:52] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:14:55] "GET /login HTTP/1.1" 200 -
 INFO:root:Password acquired from db for qkac@mail.com
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:11:33] "POST /login HTTP/1.1" 200 -
-INFO:root:Started
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:15:31] "GET /login HTTP/1.1" 200 -
-INFO:root:Password acquired from db for qkac@mail.com
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:16:11] "POST /login HTTP/1.1" 200 -
-INFO:root:Started
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:17:12] "GET /login HTTP/1.1" 200 -
-INFO:root:Password acquired from db for qkac@mail.com
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:17:17] "POST /login HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:17:17] "GET /protected HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:17:34] "GET /protected HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:22:44] "GET /login HTTP/1.1" 200 -
-INFO:root:Password acquired from db for qkac@mail.com
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:23:38] "POST /login HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:23:39] "GET /protected HTTP/1.1" 200 -
-INFO:root:Started
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:root:Started
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:26:49] "GET /login HTTP/1.1" 200 -
-INFO:root:Password acquired from db for qkac@mail.com
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:26:54] "POST /login HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:26:54] "GET /protected HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:14:59] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:14:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:15:02] "GET /logout HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:15:02] "GET / HTTP/1.1" 200 -
 INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
 INFO:werkzeug: * Restarting with stat
 INFO:root:Started
+INFO:root:__main__
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 293-394-682
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:28:03] "GET / HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:33:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:16:13] "GET /login HTTP/1.1" 200 -
 INFO:root:Password acquired from db for qkac@mail.com
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:33:49] "POST /login HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:33:50] "GET /protected HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:34:00] "GET / HTTP/1.1" 200 -
-INFO:root:unsuccesful user search with name: qkac@mail.coma
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:34:02] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:34:05] "GET /login HTTP/1.1" 200 -
+INFO:root:someone logged in! (main)
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:16:17] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:16:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:16:19] "GET /logout HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:16:19] "GET / HTTP/1.1" 200 -
+INFO:root:Started
+INFO:root:__main__
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:41:43] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:41:45] "GET /login HTTP/1.1" 200 -
 INFO:root:Password acquired from db for qkac@mail.com
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:34:20] "POST /login HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:34:27] "GET /protected HTTP/1.1" 200 -
+INFO:root:someone logged in! (main)
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:41:50] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:41:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:42:28] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:42:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:42:30] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:42:30] "GET /static/background.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:42:31] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:42:33] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:42:33] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:42:33] "GET /static/background.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:42:33] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:43:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:43:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:46:10] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:46:41] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:47:06] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:47:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:47:16] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:47:30] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:47:35] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:47:36] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:47:37] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:47:38] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:47:38] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:47:38] "GET /static/background.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:47:38] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:47:57] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:48:04] "GET /messages HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:48:07] "GET /messages HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 13:48:09] "GET /messages/peter@parker.com HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:08:53] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:08:54] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:08:57] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:15:02] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:15:59] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:19:36] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:20:17] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:20:47] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:23:55] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:25:11] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:25:52] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:33:56] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:34:27] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:34:27] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:34:41] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:35:32] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:36:46] "GET /logout HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:36:46] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:36:48] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:36:49] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:36:53] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Password acquired from db for qkac@mail.com
+INFO:root:someone logged in! (main)
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:43:55] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:43:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:43:57] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:45:01] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:46:39] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:46:40] "GET /eggs/add HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:46:41] "GET /%3C%21doctype%20html%3E%0A%3Chead%3E%0A%20%20%20%20%3Ctitle%3E%0A%0A%20%20%20-%20Wortex.stream%3C/title%3E%0A%20%20%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%20initial-scale%3D1%2C%20shrink-to-fit%3Dno%22%3E%0A%20%20%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%20initial-scale%3D1%2C%20shrink-to-fit%3Dno%22%3E%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22/static/style.css%22%3E%0A%20%20%20%20%3C%21--%20Latest%20compiled%20and%20minified%20CSS%20--%3E%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css%22%20integrity%3D%22sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm%22%20crossorigin%3D%22anonymous%22%3E%0A%20%20%20%20%3C%21--%20Latest%20compiled%20and%20minified%20JavaScript%20--%3E%0A%20%20%20%20%3Cscript%20src%3D%22https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js%22%20integrity%3D%22sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa%22%20crossorigin%3D%22anonymous%22%3E%3C/script%3E%0A%0A%3C/head%3E%0A%3Cbody%3E%0A%0A%3Cdiv%20class%3D%22d-flex%20flex-column%20flex-md-row%20align-items-center%20p-3%20px-md-4%20mb-3%20bg-white%20border-bottom%20box-shadow%22%3E%0A%20%20%20%20%3Ch5%20class%3D%22my-0%20mr-md-auto%20font-weight-normal%22%3EWortex.stream%3C/h5%3E%0A%20%20%20%20%3Cnav%20class%3D%22my-2%20my-md-0%20mr-md-3%22%3E%0A%0A%20%20%20%20%20%20%20%20%0A%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ca%20class%3D%22p-2%20dropdown-toggle%22%20href%3D%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:46:56] "GET /eggs/add HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:46:56] "GET /%3C%21doctype%20html%3E%0A%3Chead%3E%0A%20%20%20%20%3Ctitle%3E%0A%0A%20%20%20-%20Wortex.stream%3C/title%3E%0A%20%20%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%20initial-scale%3D1%2C%20shrink-to-fit%3Dno%22%3E%0A%20%20%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%20initial-scale%3D1%2C%20shrink-to-fit%3Dno%22%3E%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22/static/style.css%22%3E%0A%20%20%20%20%3C%21--%20Latest%20compiled%20and%20minified%20CSS%20--%3E%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css%22%20integrity%3D%22sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm%22%20crossorigin%3D%22anonymous%22%3E%0A%20%20%20%20%3C%21--%20Latest%20compiled%20and%20minified%20JavaScript%20--%3E%0A%20%20%20%20%3Cscript%20src%3D%22https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js%22%20integrity%3D%22sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa%22%20crossorigin%3D%22anonymous%22%3E%3C/script%3E%0A%0A%3C/head%3E%0A%3Cbody%3E%0A%0A%3Cdiv%20class%3D%22d-flex%20flex-column%20flex-md-row%20align-items-center%20p-3%20px-md-4%20mb-3%20bg-white%20border-bottom%20box-shadow%22%3E%0A%20%20%20%20%3Ch5%20class%3D%22my-0%20mr-md-auto%20font-weight-normal%22%3EWortex.stream%3C/h5%3E%0A%20%20%20%20%3Cnav%20class%3D%22my-2%20my-md-0%20mr-md-3%22%3E%0A%0A%20%20%20%20%20%20%20%20%0A%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ca%20class%3D%22p-2%20dropdown-toggle%22%20href%3D%22 HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:47:17] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:47:19] "GET /eggs/add HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:47:19] "GET /%3C%21doctype%20html%3E%0A%3Chead%3E%0A%20%20%20%20%3Ctitle%3E%0Aasd%0A%20%20%20-%20Wortex.stream%3C/title%3E%0A%20%20%20%20%3Cmeta%20charset%3D%22utf-8%22%3E%0A%20%20%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%20initial-scale%3D1%2C%20shrink-to-fit%3Dno%22%3E%0A%20%20%20%20%3Cmeta%20name%3D%22viewport%22%20content%3D%22width%3Ddevice-width%2C%20initial-scale%3D1%2C%20shrink-to-fit%3Dno%22%3E%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22/static/style.css%22%3E%0A%20%20%20%20%3C%21--%20Latest%20compiled%20and%20minified%20CSS%20--%3E%0A%20%20%20%20%3Clink%20rel%3D%22stylesheet%22%20href%3D%22https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css%22%20integrity%3D%22sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm%22%20crossorigin%3D%22anonymous%22%3E%0A%20%20%20%20%3C%21--%20Latest%20compiled%20and%20minified%20JavaScript%20--%3E%0A%20%20%20%20%3Cscript%20src%3D%22https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js%22%20integrity%3D%22sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa%22%20crossorigin%3D%22anonymous%22%3E%3C/script%3E%0A%0A%3C/head%3E%0A%3Cbody%3E%0A%0A%3Cdiv%20class%3D%22d-flex%20flex-column%20flex-md-row%20align-items-center%20p-3%20px-md-4%20mb-3%20bg-white%20border-bottom%20box-shadow%22%3E%0A%20%20%20%20%3Ch5%20class%3D%22my-0%20mr-md-auto%20font-weight-normal%22%3EWortex.stream%3C/h5%3E%0A%20%20%20%20%3Cnav%20class%3D%22my-2%20my-md-0%20mr-md-3%22%3E%0A%0A%20%20%20%20%20%20%20%20%0A%0A%20%20%20%20%20%20%20%20%20%20%20%20%3Ca%20class%3D%22p-2%20dropdown-toggle%22%20href%3D%22 HTTP/1.1" 404 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:48:02] "GET /eggs/add HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:48:02] "GET /eggs/add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:48:02] "GET /eggs/add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:48:02] "GET /eggs/add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:48:02] "GET /eggs/add?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:48:03] "GET /eggs/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:48:03] "GET /eggs/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:48:52] "GET /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:51:17] "GET /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:56:51] "GET /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:56:51] "GET /eggs/ HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:56:53] "GET /eggs/ HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:56:56] "GET /eggs/ HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:56:59] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:57:01] "GET /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 14:59:30] "GET /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:00:06] "GET /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:03:22] "GET /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:04:30] "GET /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:04:32] "GET /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:29:45] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:29:47] "GET /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:30:47] "GET /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\DAO.py', reloading
 INFO:werkzeug: * Restarting with stat
 INFO:root:Started
+INFO:root:__main__
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 293-394-682
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\DAO.py', reloading
 INFO:werkzeug: * Restarting with stat
 INFO:root:Started
+INFO:root:__main__
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 293-394-682
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\DAO.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:38:55] "GET /protected HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:39:49] "GET /logout HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:39:58] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:31:46] "GET /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:31:56] "GET /eggs/add HTTP/1.1" 200 -
 INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
 INFO:werkzeug: * Restarting with stat
 INFO:root:Started
+INFO:root:__main__
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 293-394-682
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:32:52] "GET /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:33:26] "GET /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:34:02] "GET /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:34:31] "GET /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:34:58] "GET /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:34:58] "GET /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:34:58] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:34:59] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:36:09] "GET /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:36:46] "GET /eggs/add HTTP/1.1" 200 -
+INFO:root:one record insterted
+INFO:root:{'day': 'Monday', 'time': '15:36:46', 'person': '123', 'eggs': '123', 'owner_email': 'qkac@mail.com', '_id': ObjectId('5b4c9f70a6304e479c14ac48')}
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:36:48] "POST /eggs/add HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:36:48] "GET /eggs/add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:36:48] "GET /eggs/add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:36:48] "GET /eggs/add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:36:49] "GET /eggs/add?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:36:49] "GET /eggs/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:36:49] "GET /eggs/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:one record insterted
+INFO:root:{'day': 'Monday', 'time': '15:36:46', 'person': '123', 'eggs': '123', 'owner_email': 'qkac@mail.com', '_id': ObjectId('5b4c9f91a6304e23146eb044')}
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:37:21] "POST /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:37:22] "GET /eggs/add HTTP/1.1" 200 -
+INFO:root:one record insterted
+INFO:root:{'day': 'Monday', 'time': '15:37:21', 'person': '123', 'eggs': '123', 'owner_email': 'qkac@mail.com', '_id': ObjectId('5b4c9f94a6304e23146eb045')}
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:37:24] "POST /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:37:49] "GET /eggs/add HTTP/1.1" 200 -
+INFO:root:one record insterted
+INFO:root:{'day': 'Monday', 'time': '15:37:49', 'person': 'Vee', 'eggs': '1123', 'owner_email': 'qkac@mail.com', '_id': ObjectId('5b4c9fb1a6304e23146eb046')}
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:37:53] "POST /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:one record insterted
+INFO:root:{'day': 'Monday', 'time': '15:37:49', 'person': 'Vee', 'eggs': '1123', 'owner_email': 'qkac@mail.com', 'date': datetime.datetime(2018, 7, 16, 15, 39, 10, 938659), '_id': ObjectId('5b4c9ffea6304e20ac110971')}
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:39:11] "POST /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:39:12] "GET /eggs/add HTTP/1.1" 200 -
+INFO:root:one record insterted
+INFO:root:{'day': 'Monday', 'time': '15:39:12', 'person': 'sssssssssssssssssssss', 'eggs': '123', 'owner_email': 'qkac@mail.com', 'date': datetime.datetime(2018, 7, 16, 15, 39, 15, 894155), '_id': ObjectId('5b4ca003a6304e20ac110972')}
+INFO:werkzeug:127.0.0.1 - - [16/Jul/2018 15:39:15] "POST /eggs/add HTTP/1.1" 200 -
+INFO:root:Started
+INFO:root:__main__
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:42:50] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:42:50] "GET /static/style.css HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:42:51] "GET /static/background.png HTTP/1.1" 304 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:42:51] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:42:53] "GET /login HTTP/1.1" 200 -
 INFO:root:Password acquired from db for qkac@mail.com
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:40:06] "POST /login HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 14:40:12] "GET /protected HTTP/1.1" 200 -
-INFO:root:Started
-INFO:root:Started
+INFO:root:someone logged in! (main)
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:42:59] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:42:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:43:02] "GET /eggs HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:43:02] "GET /eggs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:43:02] "GET /eggs?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:43:02] "GET /eggs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:43:02] "GET /eggs?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:43:03] "GET /eggs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:43:03] "GET /eggs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:43:37] "GET /eggs HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:43:37] "GET /eggs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:43:37] "GET /eggs?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:43:37] "GET /eggs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:43:37] "GET /eggs?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:43:37] "GET /eggs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:45:30] "GET /eggs HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:45:31] "GET /eggs?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:45:31] "GET /eggs?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:45:31] "GET /eggs?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:45:31] "GET /eggs?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:45:31] "GET /eggs?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\DAO.py', reloading
 INFO:werkzeug: * Restarting with stat
 INFO:root:Started
+INFO:root:__main__
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 293-394-682
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:48:02] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:48:28] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:49:53] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:51:13] "GET /logout HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:52:05] "GET / HTTP/1.1" 200 -
 INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
 INFO:werkzeug: * Restarting with stat
 INFO:root:Started
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
+INFO:root:__main__
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 293-394-682
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:10:38] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:10:45] "GET /protected HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:10:49] "GET /logout HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:10:52] "GET /register HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:11:45] "POST /register HTTP/1.1" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:11:46] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:11:46] "GET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:11:46] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:11:46] "GET /register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:11:46] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:11:46] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:13:31] "GET /registe HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:13:46] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:55:01] "GET /login HTTP/1.1" 200 -
+INFO:root:Password acquired from db for qkac@mail.com
+INFO:root:someone logged in! (main)
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:55:10] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:55:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:55:43] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:55:50] "GET /eggs/add HTTP/1.1" 200 -
+INFO:root:one record insterted
+INFO:root:{'day': 'Tuesday', 'time': '10:55:50', 'person': 'Peti', 'eggs': '12', 'owner_email': 'qkac@mail.com', 'date': datetime.datetime(2018, 7, 17, 10, 56, 2, 404076), '_id': ObjectId('5b4daf22a6304e23503020dc')}
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:56:02] "POST /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:56:24] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:56:52] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:57:09] "GET /eggs HTTP/1.1" 200 -
 INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
 INFO:werkzeug: * Restarting with stat
 INFO:root:Started
+INFO:root:__main__
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 293-394-682
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:14:07] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:58:07] "GET /eggs/add HTTP/1.1" 200 -
+INFO:root:one record insterted
+INFO:root:{'day': 'Tuesday', 'time': '10:58:07', 'person': 'test', 'eggs': '1', 'owner_email': 'qkac@mail.com', 'date': datetime.datetime(2018, 7, 17, 10, 58, 11, 921027), '_id': ObjectId('5b4dafa3a6304e24b435612a')}
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:58:12] "POST /eggs/add HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:58:12] "GET /eggs/add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:58:12] "GET /eggs/add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:58:12] "GET /eggs/add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:58:12] "GET /eggs/add?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:58:13] "GET /eggs/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:58:13] "GET /eggs/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
 INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
 INFO:werkzeug: * Restarting with stat
 INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:one record insterted
+INFO:root:{'day': 'Tuesday', 'time': '10:58:07', 'person': 'test', 'eggs': '1', 'owner_email': 'qkac@mail.com', 'date': datetime.datetime(2018, 7, 17, 10, 58, 46, 436478), '_id': ObjectId('5b4dafc6a6304e0b20468e17')}
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:58:46] "POST /eggs/add HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:58:46] "GET /eggs/add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:58:47] "GET /eggs/add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:58:47] "GET /eggs/add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:58:47] "GET /eggs/add?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:58:47] "GET /eggs/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:58:47] "GET /eggs/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:59:06] "GET /eggs/add HTTP/1.1" 200 -
+INFO:root:one record insterted
+INFO:root:{'day': 'Tuesday', 'time': '10:59:06', 'person': '1', 'eggs': '1', 'owner_email': 'qkac@mail.com', 'date': datetime.datetime(2018, 7, 17, 10, 59, 9, 508785), '_id': ObjectId('5b4dafdda6304e23108a5458')}
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:59:09] "POST /eggs/add HTTP/1.1" 500 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:59:10] "GET /eggs/add?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:59:10] "GET /eggs/add?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:59:10] "GET /eggs/add?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:59:10] "GET /eggs/add?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:59:10] "GET /eggs/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:59:10] "GET /eggs/add?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:59:53] "GET /eggs/add HTTP/1.1" 200 -
+INFO:root:one record insterted
+INFO:root:{'day': 'Tuesday', 'time': '10:59:53', 'person': '1', 'eggs': '1', 'owner_email': 'qkac@mail.com', 'date': datetime.datetime(2018, 7, 17, 10, 59, 55, 448378), '_id': ObjectId('5b4db00ba6304e0b200abeeb')}
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:59:55] "POST /eggs/add HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 10:59:55] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:01:19] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:01:21] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:01:21] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:01:21] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:01:22] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:01:56] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:02:45] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:02:45] "GET /static/style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:02:46] "GET /favicon.ico HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:08:09] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:08:35] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 293-394-682
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\DAO.py', reloading
 INFO:werkzeug: * Restarting with stat
 INFO:root:Started
+INFO:root:__main__
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 293-394-682
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:18:46] "GET /register HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:18:49] "GET /register HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:19:32] "GET /register HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:19:32] "GET /register HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:19:43] "POST /register HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:20:00] "POST /register HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:20:09] "POST /register HTTP/1.1" 500 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:20:09] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:20:09] "GET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:20:09] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:20:09] "GET /register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:20:09] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:20:10] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:20:25] "GET /register HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [12/Jul/2018 15:20:25] "GET /register HTTP/1.1" 200 -
-INFO:root:Started
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 07:54:55] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 07:54:55] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 07:55:02] "GET /register HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 07:55:19] "POST /register HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 07:55:19] "GET /protected HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 07:55:33] "GET /protected HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 07:55:35] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 07:55:35] "GET /login HTTP/1.1" 200 -
-INFO:root:Password acquired from db for test123
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 07:55:54] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 07:56:06] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 07:56:09] "GET /protected HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 07:56:19] "GET /register HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 07:56:57] "POST /register HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 07:56:58] "GET /protected HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 07:57:33] "GET /register HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 07:58:00] "POST /register HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 07:58:00] "GET /protected HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 07:58:37] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 07:58:38] "GET /register HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 07:58:39] "GET /register HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 07:59:00] "POST /register HTTP/1.1" 500 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 07:59:01] "GET /register?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 07:59:01] "GET /register?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 07:59:01] "GET /register?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 07:59:02] "GET /register?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 07:59:03] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 07:59:03] "GET /register?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 07:59:41] "GET /register HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:00:14] "POST /register HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:00:14] "GET /protected HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:12:44] "GET / HTTP/1.1" 200 -
-INFO:root:Password acquired from db for qkac@mail.com
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:12:49] "POST /login HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:12:49] "GET /protected HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:12:53] "GET /profile HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:12:59] "GET /users/me HTTP/1.1" 500 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:12:59] "GET /users/me?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:13:00] "GET /users/me?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:13:00] "GET /users/me?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:13:00] "GET /users/me?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:13:00] "GET /users/me?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:13:00] "GET /users/me?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:13:51] "GET /users/me HTTP/1.1" 500 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:13:51] "GET /users/me?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:13:51] "GET /users/me?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:13:51] "GET /users/me?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:13:51] "GET /users/me?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:13:51] "GET /users/me?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:15:41] "GET /users/me HTTP/1.1" 500 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:15:41] "GET /users/me?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:15:41] "GET /users/me?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:15:41] "GET /users/me?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:15:41] "GET /users/me?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:15:42] "GET /users/me?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:15:58] "GET /users/me HTTP/1.1" 500 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:15:58] "GET /users/me?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:15:58] "GET /users/me?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:15:58] "GET /users/me?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:15:58] "GET /users/me?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:15:59] "GET /users/me?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:17:34] "GET /users/me HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:17:55] "GET /users/me HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:19:31] "GET /users/me HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:21:19] "GET /users/me HTTP/1.1" 500 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:21:19] "GET /users/me?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:21:20] "GET /users/me?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:21:20] "GET /users/me?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:21:20] "GET /users/me?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:21:20] "GET /users/me?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:21:20] "GET /users/me?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:23:52] "GET /users/me HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:24:24] "GET /users/me HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:32:34] "GET /users/me HTTP/1.1" 200 -
-INFO:root:Started
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:33:47] "GET /users/me HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:33:51] "GET /logout HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:33:54] "GET /login HTTP/1.1" 200 -
-INFO:root:Password acquired from db for weblogic
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:34:07] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:34:12] "GET /login HTTP/1.1" 200 -
-INFO:root:Password acquired from db for weblogic
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:34:19] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:34:21] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:16:10] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:16:13] "GET /logout HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:16:14] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:16:15] "GET /login HTTP/1.1" 200 -
+INFO:root:Password acquired from db for weblogic@weblogic
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:16:21] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:16:24] "GET /login HTTP/1.1" 200 -
+INFO:root:Password acquired from db for weblogic2@weblogic
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:17:35] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:17:44] "GET /login HTTP/1.1" 200 -
 INFO:root:Password acquired from db for hackerman@hackerman.com
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:34:33] "POST /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:34:35] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:17:48] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:17:50] "GET /login HTTP/1.1" 200 -
+INFO:root:Password acquired from db for hackerman@hackerman.com
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:17:56] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:20:01] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:20:03] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:21:57] "POST /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:22:11] "POST /register HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:22:11] "GET /protected HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:22:17] "GET /logout HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:22:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:22:17] "GET /logout HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:22:17] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:22:19] "GET /login HTTP/1.1" 200 -
+INFO:root:Password acquired from db for xxxx@xxxx
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:22:23] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:24:19] "GET /login HTTP/1.1" 200 -
+INFO:root:Password acquired from db for xxxx@xxxx
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:25:19] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:25:39] "GET /login HTTP/1.1" 200 -
+INFO:root:Password acquired from db for xxxx@xxxx
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:26:03] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\PasswordHasher.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:27:49] "GET /login HTTP/1.1" 200 -
 INFO:root:Password acquired from db for qkac@mail.com
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:34:42] "POST /login HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:34:43] "GET /protected HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 08:34:54] "GET /users/me HTTP/1.1" 200 -
-INFO:root:Started
+INFO:root:someone logged in! (main)
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:27:58] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:27:59] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:28:11] "GET /logout HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:28:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:28:12] "GET /login HTTP/1.1" 200 -
+INFO:root:Password acquired from db for xxxx@xxxx
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:28:15] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\PasswordHasher.py', reloading
 INFO:werkzeug: * Restarting with stat
 INFO:root:Started
+INFO:root:__main__
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 293-394-682
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:27:14] "GET / HTTP/1.1" 500 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:27:14] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:27:14] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:27:15] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:27:15] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:27:15] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:27:15] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:27:45] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:27:46] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:02] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:02] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:03] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:03] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:04] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:04] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:04] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:04] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:06] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:06] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:08] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:08] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:08] "GET /register HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:09] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:10] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:10] "GET /static/style.css HTTP/1.1" 404 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:28:35] "GET /login HTTP/1.1" 200 -
 INFO:root:Password acquired from db for qkac@mail.com
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:17] "POST /login HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:17] "GET /protected HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:22] "GET /index HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:24] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:24] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:28] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:28] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:30] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:31] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:31] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:31] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:32] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:32] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:32] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:28:32] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:30:31] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:30:31] "GET /static/style.css HTTP/1.1" 404 -
+INFO:root:HASHED fdf7b888c5cf89fbdcb06227b219d63c802acfccf2f1d4a7ba30479472874b35 and FROMDB: 7c780b1db49f42a65244a316cd3e0b9142bb9dc758776b25f8bc69e317aea3cd
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:28:40] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:28:41] "GET /login HTTP/1.1" 200 -
+INFO:root:Password acquired from db for xxxx@xxxx
+INFO:root:HASHED 769399cd758976ab36375161daeb8d4af69cb126387fe66bac097be09da83fe8 and FROMDB: 2481a63c85a62cf889d2b149f1a52e985a9341750173fe01eff50cc27b5941b5
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:28:45] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:29:03] "GET /login HTTP/1.1" 200 -
 INFO:root:Password acquired from db for qkac@mail.com
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:30:37] "POST /login HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:30:37] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:30:37] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:30:50] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:30:51] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:30:52] "GET /register HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:30:52] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:30:53] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:30:53] "GET /static/style.css HTTP/1.1" 404 -
+INFO:root:HASHED 7c780b1db49f42a65244a316cd3e0b9142bb9dc758776b25f8bc69e317aea3cd and FROMDB: 7c780b1db49f42a65244a316cd3e0b9142bb9dc758776b25f8bc69e317aea3cd
+INFO:root:someone logged in! (main)
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:29:07] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:29:07] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:33:10] "GET /logout HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:33:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:33:12] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:34:13] "POST /register HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:34:14] "GET /protected HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:34:22] "GET /logout HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:34:22] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:34:25] "GET /register HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:36:28] "POST /register HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:36:29] "GET /protected HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:36:37] "GET /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:36:39] "GET /logout HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:36:39] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:36:41] "GET /login HTTP/1.1" 200 -
+INFO:root:Password acquired from db for xxxx@xxxx
+INFO:root:HASHED 769399cd758976ab36375161daeb8d4af69cb126387fe66bac097be09da83fe8 and FROMDB: 2481a63c85a62cf889d2b149f1a52e985a9341750173fe01eff50cc27b5941b5
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:37:15] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:38:52] "GET /login HTTP/1.1" 200 -
+INFO:root:Password acquired from db for xxxx@xxxx
+INFO:root:HASHED 769399cd758976ab36375161daeb8d4af69cb126387fe66bac097be09da83fe8 and FROMDB: 2481a63c85a62cf889d2b149f1a52e985a9341750173fe01eff50cc27b5941b5
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:39:49] "POST /login HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\PasswordHasher.py', reloading
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:39:55] "GET /login HTTP/1.1" 200 -
+INFO:root:Password acquired from db for xxxx@xxxx
+INFO:root:someone logged in! (main)
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:40:01] "POST /login HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:40:01] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:41:18] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:41:32] "GET /eggs/add HTTP/1.1" 200 -
+INFO:root:one record insterted
+INFO:root:{'day': 'Tuesday', 'time': '11:41:32', 'person': '1', 'eggs': '123', 'owner_email': 'xxxx@xxxx', 'date': datetime.datetime(2018, 7, 17, 11, 41, 36, 719367), '_id': ObjectId('5b4db9d0a6304e35cc3b1ee2')}
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:41:36] "POST /eggs/add HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:41:37] "GET /eggs HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:41:54] "GET /eggs/add HTTP/1.1" 200 -
 INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
 INFO:werkzeug: * Restarting with stat
 INFO:root:Started
+INFO:root:__main__
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 293-394-682
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:43:24] "GET /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:43:25] "GET /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:43:26] "GET /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:43:27] "GET /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:43:27] "GET /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:43:28] "GET /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:43:28] "GET /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:43:28] "GET /eggs/add HTTP/1.1" 200 -
 INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
 INFO:werkzeug: * Restarting with stat
 INFO:root:Started
+INFO:root:__main__
+INFO:root:Started
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 293-394-682
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:__main__
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:root:Started
+INFO:root:__main__
+INFO:werkzeug: * Restarting with stat
+INFO:root:Started
+INFO:root:__main__
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 293-394-682
+INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:44:54] "GET /eggs/add HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:45:08] "GET /logout HTTP/1.1" 302 -
+INFO:werkzeug:127.0.0.1 - - [17/Jul/2018 11:45:09] "GET / HTTP/1.1" 200 -
 INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
 INFO:werkzeug: * Restarting with stat
 INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-INFO:root:Started
-INFO:root:Started
-INFO:root:Started
-INFO:root:Started
-INFO:root:Started
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:46:25] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:46:25] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:46:27] "GET /logout HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:46:31] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:46:31] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:46:34] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:46:34] "GET /static/style.css HTTP/1.1" 404 -
-INFO:root:Password acquired from db for qkac@mail.com
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:46:40] "POST /login HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:46:40] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:46:40] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:47:07] "GET /logout HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:51:51] "GET /logout HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:51:52] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:51:53] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:54:55] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:54:55] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:55:13] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:55:13] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:55:15] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:55:15] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:55:17] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:55:17] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:55:20] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:55:20] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:57:56] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:57:56] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:57:56] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:57:57] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:57:58] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:58:18] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:58:18] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:59:07] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 09:59:08] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:00:42] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:00:43] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:01:41] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:01:41] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:01:44] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:01:44] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:01:50] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:02:52] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:02:52] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:02:53] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:02:53] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:02:55] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:02:55] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:02:55] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:02:56] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:02:56] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:02:56] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:02:56] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:02:56] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:02:58] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:02:58] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:03:00] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:03:00] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:03:32] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:03:32] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:03:33] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:03:33] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:03:33] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:03:34] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:03:35] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:03:35] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:03:36] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:03:36] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:03:36] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:03:36] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:04:26] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:04:27] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:04:29] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:04:29] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:04:30] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:04:30] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:04:30] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:04:31] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:05:44] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:05:44] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:05:45] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:05:45] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:06:18] "GET /static/style.css HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:06:54] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:06:56] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:06:59] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:07:21] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:07:24] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:07:24] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:07:39] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:07:43] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:07:43] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:07:43] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:07:44] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:07:45] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:07:46] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:07:52] "POST /login HTTP/1.1" 500 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:07:52] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:07:53] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:07:53] "GET /login?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:07:53] "GET /login?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:07:54] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:07:54] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:09:12] "GET /login HTTP/1.1" 200 -
-INFO:root:Password acquired from db for qkac@mail.com
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:09:20] "POST /login HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:09:20] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:09:22] "GET /logout HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:09:25] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:33:16] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:33:19] "GET / HTTP/1.1" 200 -
-INFO:root:Started
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:47:46] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:47:52] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:47:54] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:47:55] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:47:55] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:47:56] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:47:56] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:47:56] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:47:57] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:47:57] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:47:57] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:47:57] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:47:57] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:47:58] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:47:58] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:47:58] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:47:59] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:48:01] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:48:05] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:48:27] "GET / HTTP/1.1" 500 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:48:27] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:48:27] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:48:27] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:48:27] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:48:28] "GET / HTTP/1.1" 500 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:48:28] "GET /?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:48:28] "GET /?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:48:29] "GET /?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:48:29] "GET /?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:48:38] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:48:38] "GET /?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:51:19] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:51:19] "GET /static/background.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:51:19] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:51:23] "GET /register HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:51:32] "GET /login HTTP/1.1" 200 -
-INFO:root:Password acquired from db for qkac@mail.com
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:51:37] "POST /login HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:51:37] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:51:38] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:52:01] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:52:05] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:53:07] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:53:13] "GET /logout HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:53:15] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 10:53:18] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:20:20] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:20:21] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:35:32] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:35:45] "GET /register HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:37:40] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:37:47] "GET /register HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:37:50] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:38:01] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:38:01] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:38:01] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:38:02] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:38:02] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:38:02] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:38:03] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:38:03] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:38:03] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:38:03] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:38:03] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:38:03] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:38:04] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:38:04] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:38:04] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:38:04] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:38:05] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:38:06] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:38:06] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:38:07] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:42:38] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:42:43] "GET /login HTTP/1.1" 200 -
-INFO:root:Password acquired from db for qkac@mail.com
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:43:26] "POST /login HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:43:26] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:46:41] "GET /logout HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:46:45] "GET /login HTTP/1.1" 200 -
-INFO:root:Password acquired from db for qkac@mail.com
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:46:51] "POST /login HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:46:52] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:47:58] "GET /logout HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:47:59] "GET /logout HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:47:59] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:48:00] "GET /logout HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:48:00] "GET /logout HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:48:00] "GET /logout HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:48:00] "GET /logout HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:48:00] "GET /logout HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:48:01] "GET /logout HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:48:01] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:48:01] "GET /logout HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:48:04] "GET /login HTTP/1.1" 200 -
-INFO:root:Password acquired from db for qkac@mail.com
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:48:08] "POST /login HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:48:08] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:49:14] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:49:15] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:49:15] "GET /static/background.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:49:15] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:49:15] "GET /logout HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:49:19] "GET /login HTTP/1.1" 200 -
-INFO:root:Password acquired from db for qkac@mail.com
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:49:25] "POST /login HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:49:26] "GET / HTTP/1.1" 200 -
-INFO:root:Started
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:51:50] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:51:52] "GET /logout HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:51:56] "GET /login HTTP/1.1" 200 -
-INFO:root:Password acquired from db for qkac@mail.com
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:52:00] "POST /login HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:52:01] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:52:37] "GET /logout HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:54:44] "GET /logout HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:54:44] "GET /logout HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:54:45] "GET /logout HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:54:45] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:54:47] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:54:48] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:54:48] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:54:48] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:54:49] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:54:49] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:54:49] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:54:49] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:54:49] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:54:50] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:root:Password acquired from db for qkac@mail.com
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:55:35] "POST /login HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:55:36] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:55:38] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:56:06] "GET /logout HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:56:51] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:56:55] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:56:56] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:56:56] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:56:56] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:56:56] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:56:56] "GET /static/background.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:56:56] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:56:56] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:56:57] "GET /static/background.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:56:57] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:57:25] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:57:30] "GET /login HTTP/1.1" 200 -
-INFO:root:Password acquired from db for qkac@mail.com
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:57:37] "POST /login HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:57:37] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:57:53] "GET /logout HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:57:53] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:57:58] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:58:17] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:58:26] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 11:58:39] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:00:02] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:00:07] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:00:07] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:00:07] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:00:08] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:00:08] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:00:08] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:00:09] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:00:09] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:00:09] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:00:10] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:00:11] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:00:11] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:00:13] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:00:29] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:00:31] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:00:31] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:00:32] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:01:43] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:01:43] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:01:43] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:01:44] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:01:44] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:01:44] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:01:45] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:01:45] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:01:45] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:01:46] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:01:46] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:01:46] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:01:47] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:03:04] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:03:04] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:03:05] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:03:06] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:03:06] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:03:06] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:03:06] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:03:06] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:03:06] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:03:07] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:03:35] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:04:41] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:04:43] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:04:43] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:04:44] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:04:44] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:04:44] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:04:44] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:04:45] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:05:32] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:05:32] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:05:32] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:05:33] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:05:33] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:05:33] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:05:33] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:05:41] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:05:41] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:05:41] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:05:41] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:05:41] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:05:41] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:05:42] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:08:24] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:08:24] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:08:24] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:08:24] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:08:24] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:08:24] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:09:04] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:09:04] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:09:05] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:09:12] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:09:12] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:09:12] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:root:Password acquired from db for qkac@mail.com
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:09:28] "POST /login HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:09:28] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:10:59] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:11:00] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:11:00] "GET /static/background.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:11:00] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:11:01] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:11:01] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:11:01] "GET /static/background.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:11:01] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:11:02] "GET /logout HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:11:02] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:11:04] "GET /register HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:11:21] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:11:21] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:11:21] "GET /static/background.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:11:21] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:11:21] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:11:22] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:11:22] "GET /static/background.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:11:22] "GET /register HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:11:22] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:11:54] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:11:54] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:11:55] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:11:55] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:11:55] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:11:56] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:12:15] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:12:15] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:12:15] "GET /static/background.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:12:15] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:13:05] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:13:06] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:13:07] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:14:27] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:14:27] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:14:27] "GET /static/background.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:14:27] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:14:28] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:14:28] "GET /static/background.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:14:28] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:14:55] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:15:00] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:15:00] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:15:00] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:15:01] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:15:01] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:15:01] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:15:10] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:15:10] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:15:10] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:root:Password acquired from db for qkac@mail.com
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:23:57] "POST /login HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:23:57] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:58:07] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:58:27] "GET /logout HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:58:28] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:59:47] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:59:51] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:59:53] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:59:53] "GET /static/background.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:59:53] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:59:54] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:59:56] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:59:56] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:59:56] "GET /static/background.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 12:59:56] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:03:38] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:03:43] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:03:43] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:03:43] "GET /static/background.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:03:44] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:03:45] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:03:45] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:03:45] "GET /static/background.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:03:45] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:03:46] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:03:46] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:03:46] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:03:46] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:03:46] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:root:Password acquired from db for qkac@mail.com
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:03:51] "POST /login HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:03:51] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:03:51] "GET /static/background.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:03:53] "GET /meesages HTTP/1.1" 500 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:03:53] "GET /meesages?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:03:53] "GET /meesages?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:03:54] "GET /meesages?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:03:54] "GET /meesages?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:03:54] "GET /meesages?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:03:54] "GET /meesages?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:03:55] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:04:06] "GET /logout HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:04:07] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:04:08] "GET /register HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:05:08] "GET /register HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:05:15] "GET /register HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:05:16] "GET /login HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:05:17] "GET /register HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
+INFO:root:__main__
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 293-394-682
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
 INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
 INFO:werkzeug: * Restarting with stat
 INFO:root:Started
+INFO:root:__main__
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 293-394-682
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:19:47] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:19:49] "GET /login HTTP/1.1" 200 -
-INFO:root:Password acquired from db for qkac@mail.com
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:19:54] "POST /login HTTP/1.1" 302 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:19:54] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:19:55] "GET /meesages HTTP/1.1" 500 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:19:56] "GET /meesages?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:19:56] "GET /meesages?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:19:56] "GET /meesages?__debugger__=yes&cmd=resource&f=jquery.js HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:19:56] "GET /meesages?__debugger__=yes&cmd=resource&f=ubuntu.ttf HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:19:56] "GET /meesages?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\PasswordHasher.py', reloading
 INFO:werkzeug: * Restarting with stat
 INFO:root:Started
+INFO:root:__main__
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 293-394-682
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:20:17] "GET /meesages HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:20:24] "GET /messages/souzderaman@asd.ass HTTP/1.1" 404 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\DAO.py', reloading
 INFO:werkzeug: * Restarting with stat
 INFO:root:Started
+INFO:root:Started
+INFO:root:Started
+INFO:root:Started
+INFO:root:Started
+INFO:root:__main__
 INFO:werkzeug: * Restarting with stat
 INFO:root:Started
+INFO:root:__main__
 WARNING:werkzeug: * Debugger is active!
 INFO:werkzeug: * Debugger PIN: 293-394-682
 INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:30:48] "GET /messages/souzderaman@asd.ass HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:30:51] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:30:54] "GET /meesages HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:30:56] "GET /messages/souzderaman@asd.ass HTTP/1.1" 404 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:31:32] "GET /messages/souzderaman@asd.ass HTTP/1.1" 404 -
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug: * Detected change in 'C:\\Users\\hang1barnab502\\PycharmProjects\\wortex\\app.py', reloading
-INFO:werkzeug: * Restarting with stat
-INFO:root:Started
-WARNING:werkzeug: * Debugger is active!
-INFO:werkzeug: * Debugger PIN: 293-394-682
-INFO:werkzeug: * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:31:52] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:31:52] "GET /w3images/bandmember.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:31:52] "GET /w3images/avatar_g2.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:31:58] "GET /messages HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:32:03] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:32:03] "GET /w3images/bandmember.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:32:03] "GET /w3images/avatar_g2.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:33:08] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:33:08] "GET /w3images/bandmember.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:33:08] "GET /w3images/avatar_g2.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:33:10] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:33:10] "GET /w3images/bandmember.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:33:10] "GET /w3images/avatar_g2.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:33:24] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:33:24] "GET /w3images/bandmember.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:33:24] "GET /w3images/avatar_g2.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:34:23] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:34:24] "GET /w3images/bandmember.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:34:24] "GET /w3images/avatar_g2.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:34:25] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:34:25] "GET /w3images/bandmember.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:34:25] "GET /w3images/avatar_g2.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:34:25] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:34:26] "GET /w3images/bandmember.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:34:26] "GET /w3images/avatar_g2.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:35:55] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:35:55] "GET /w3images/bandmember.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:35:55] "GET /w3images/avatar_g2.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:35:59] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:35:59] "GET /w3images/bandmember.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:35:59] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:36:00] "GET /w3images/avatar_g2.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:36:00] "GET /w3images/bandmember.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:36:00] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:36:00] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:36:00] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:36:00] "GET /w3images/bandmember.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:36:00] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:36:00] "GET /w3images/avatar_g2.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:36:01] "GET /w3images/avatar_g2.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:36:01] "GET /w3images/bandmember.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:36:01] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:36:01] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:36:01] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:36:01] "GET /w3images/bandmember.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:36:01] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:36:01] "GET /w3images/avatar_g2.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:36:01] "GET /w3images/bandmember.jpg HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:36:02] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:39:47] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:40:37] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:40:59] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:42:46] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:42:47] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:42:47] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:42:47] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:42:48] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:42:49] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:42:49] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:43:13] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:43:13] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:43:14] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:43:14] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:43:16] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:43:16] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:43:16] "GET /static/style.css HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:43:17] "GET /favicon.ico HTTP/1.1" 404 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:43:53] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:45:02] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:45:03] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:45:49] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:46:02] "GET /messages/peter@parker.com HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:50:44] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:54:01] "GET / HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:54:03] "GET /messages HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:54:04] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:55:38] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:55:39] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:55:40] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:55:40] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:58:18] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:59:46] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:59:46] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:59:46] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:59:47] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:59:48] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:59:48] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:59:48] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:59:48] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:59:49] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:59:49] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:59:49] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:59:49] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:59:50] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:59:50] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:59:50] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:59:50] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:59:50] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:59:51] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:59:51] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:59:51] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:59:52] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:59:52] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:59:52] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 13:59:53] "GET /messages HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 14:00:28] "GET /messages HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 14:00:29] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 14:02:26] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -
-INFO:werkzeug:127.0.0.1 - - [13/Jul/2018 14:07:33] "GET /messages/souzderaman@asd.ass HTTP/1.1" 200 -

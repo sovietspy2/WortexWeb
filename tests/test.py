@@ -12,12 +12,27 @@ user2 = {
 users = [user1, user2]
 
 
-
 list_user_passwords = []
 for user in users:
     list_user_passwords.append(user["password"])
 
 print(list_user_passwords)
+
+
+x  = 10
+print(f"hello there {x}")
+
+import PasswordHasher as p
+
+pw = p.get_hashed_pasword("xxxx".encode())
+print(pw)
+
+import datetime
+now = datetime.datetime.now()
+day = now.strftime("%A")
+time = now.strftime('%I:%M:%S %p')
+print(time)
+
 
 
 class House:

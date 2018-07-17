@@ -3,9 +3,9 @@
 import pymongo
 from pymongo import MongoClient
 import WortexLogger as w
+import config
 
-
-connection = MongoClient('localhost',27017)
+connection = MongoClient(config.settings['DB'], 27017)
 db = connection['local']
 # Get the sampleDB database
 
@@ -42,3 +42,14 @@ def get_user_by_name(email):
 def other_user_is_valid(email):
     ''' Ha van már váltottak üzenet A és B b email címe a param'''
     return True
+
+def save_eggs(data):
+    collection = db['gyujtes']
+    id = collection.insert_one(data).inserted_id
+    w.logging.info("one record insterted")
+    return
+
+def load_eggs(email):
+    collection = db['gyujtes']
+    items = collection.find({"owner_email":email}).sort([("date", 1)]).limit(7)
+    return items
