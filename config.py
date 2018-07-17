@@ -5,6 +5,6 @@ settings = {
     'DB':'localhost',
     #'DB':'94.177.218.154',
     'HOST':'0.0.0.0', # for debug
-    'DEBUG': True,
+    'DEBUG': False,
     'PORT':8000,
 }
