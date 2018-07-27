@@ -9,6 +9,7 @@ import Register as reg
 from flask import g
 import datetime
 import config
+import EmailService
 
 app = flask.Flask(__name__)
 app.secret_key = 'super secret string'  # Change this!!!!!!!!!!!!!!!
@@ -114,6 +115,8 @@ def register():
         user['name'] = form.username.data
         user['email'] = form.email.data
         user['password'] = PasswordHasher.get_hashed_pasword(form.password.data)
+        user['activator_code'] = PasswordHasher.get_hashed_pasword(user['name'] + "luckyLuck2")
+        EmailService.send_activation_code(user['email'],user['activator_code'])
         success = dao.save_user(user)
         email = user['email']
         if success: flask.flash('Thanks for registering')
@@ -188,6 +191,15 @@ def eggs_add():
         day = now.strftime("%A")
         time = now.strftime('%I:%M:%S %p')
         return flask.render_template("eggs_add.html",day=day, time=time)
+
+
+@app.route("/activate")
+def activate():
+    code = flask.request.args.get("activation")
+
+    dao.activate_user(code)
+
+    return "activated"
 
 if __name__ == '__main__':
     WortexLogger.logging.info("__main__")
