@@ -195,7 +195,6 @@ def eggs_add():
         time = now.strftime('%I:%M:%S %p')
         return flask.render_template("eggs_add.html",day=day, time=time)
 
-
 @app.route("/activate")
 def activate():
     code = flask.request.args.get("activation")
