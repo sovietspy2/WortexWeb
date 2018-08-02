@@ -12,7 +12,10 @@ import config
 import EmailService
 
 app = flask.Flask(__name__)
-app.secret_key = 'super secret string'  # Change this!!!!!!!!!!!!!!!
+app.secret_key = '123123sdas123123sada'  # Change this!!!!!!!!!!!!!!!
+# app.debug = config.settings['DEBUG']
+# app.port = config.settings['PORT']
+
 
 
 login_manager = flask_login.LoginManager()
@@ -200,9 +203,3 @@ def activate():
     dao.activate_user(code)
 
     return "activated"
-
-if __name__ == '__main__':
-    WortexLogger.logging.info("__main__")
-    app.run(host=config.settings['HOST'], debug=config.settings['DEBUG'], port=config.settings['PORT'])
-
-
