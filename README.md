@@ -8,6 +8,13 @@ This is a simple CMS im working on in my freetime (flask and mongodb)
 * stupid egg dashboard :heavy_check_mark:
 * user messaging :soon::clock1:
 * placeholder for broken feature :x:
+* admin panel for user managment :heavy_exclamation_mark:
+* user roles :heavy_exclamation_mark:
+* security fixes :heavy_exclamation_mark:
+* blog :heavy_exclamation_mark:
+* analytics :heavy_exclamation_mark:
+* search bar :heavy_exclamation_mark:
+* multilingual support :heavy_exclamation_mark:
 
 ## development setup steps:
 1. git clone
