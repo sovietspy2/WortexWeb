@@ -2,6 +2,7 @@
 This is a simple CMS im working on in my freetime (flask and mongodb)
 
 ## features 
+* theme :heavy_check_mark:
 * register / login :heavy_check_mark:
 * registration activation email :heavy_check_mark:
 * stupid egg dashboard :heavy_check_mark:
