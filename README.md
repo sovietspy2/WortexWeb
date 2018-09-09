@@ -1,15 +1,17 @@
 # WortexWeb
-This is webapp with flask and mongodb
+This is a simple CMS im working on in my freetime (flask and mongodb)
 
 
-development setup:
+
+
+##development setup:
 git clone
 see config for dev settings
 to run: flask run 
 for debugging start app.py in IDE (eg. pycharm)
 
 
-prod setup:
+##prod setup:
 git clone
 apt install gunicorn
 pip3 install gunicorn
