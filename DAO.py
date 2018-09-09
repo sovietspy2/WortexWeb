@@ -51,14 +51,16 @@ def save_eggs(data):
 
 def load_eggs(email):
     collection = db['gyujtes']
-    items = collection.find({"owner_email":email}).sort([("date", 1)]).limit(7)
+    items = collection.find({"owner_email":email}).sort([("date", -1)]).limit(7)
     return items
 
 def activate_user(code):
     collection = db['users']
     user = collection.find_one({"activation_code":code})
-    user['activated'] = True
-    user['activation_code'] = ""
-    if user is not None:
-        collection.update_one({"activation_code":code, "email": user["email"] },{"$set": user} , upsert=False)
-        return
+    if user != None:
+        user['activated'] = True
+        user['activation_code'] = ""
+        if user is not None:
+            collection.update_one({"activation_code":code, "email": user["email"] },{"$set": user} , upsert=False)
+            w.logging.info('user: '+user["email"]+' updated! ')
+    return
