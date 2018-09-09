@@ -118,8 +118,8 @@ def register():
         user['name'] = form.username.data
         user['email'] = form.email.data
         user['password'] = PasswordHasher.get_hashed_pasword(form.password.data)
-        user['activator_code'] = PasswordHasher.get_hashed_pasword(user['name'] + "luckyLuck2")
-        EmailService.send_activation_code(user['email'],user['activator_code'])
+        user['activation_code'] = PasswordHasher.get_hashed_pasword(user['name'] + "luckyLuck2")
+        EmailService.send_activation_code(user['email'],user['activation_code'])
         success = dao.save_user(user)
         email = user['email']
         if success: flask.flash('Thanks for registering')
@@ -158,18 +158,10 @@ def messages2(other_user):
 @flask_login.login_required
 def eggs():
     last = list(dao.load_eggs(flask_login.current_user.id))
-    # data = [
-    #     {
-    #         "num":"23",
-    #         "day":"thuesday",
-    #         "time":"19:12",
-    #         "person":"Verus"
-    #     }
-    # ]
-    days_for_chart = ["monday","thuesday","wednesday","thurstday","friday","saturday","sunday"]
-    days_eggs = [0,1,2,3,4,5,6]
     days_eggs = [item['eggs'] for item in last ]
+    days_eggs.reverse()
     days_for_chart = [item['day'] for item in last]
+    days_for_chart.reverse()
     return flask.render_template("eggs.html", last_7_days = last, days=days_for_chart, eggs=days_eggs)
 
 @app.route('/eggs/add', methods=['GET',"POST"])
@@ -197,7 +189,7 @@ def eggs_add():
 
 @app.route("/activate")
 def activate():
-    code = flask.request.args.get("activation")
+    code = flask.request.args.get("code")
 
     dao.activate_user(code)
 
