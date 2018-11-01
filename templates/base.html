@@ -30,7 +30,8 @@
         {% endif %}
 
         {% if g.user %}
-            <a class="p-2 text-dark" href="{{ url_for('messages') }}">super service</a>
+            
+            <a class="p-2 text-dark" href="{{ url_for('profile') }}">Profile</a>
         {% endif %}
         {% if g.user %}
             <a class="p-2 text-dark" href="{{ url_for('messages') }}">Send message</a>
@@ -51,7 +52,7 @@
 
 <section class="content">
   <header>
-    {% block header %} hedör{% endblock %}
+    <!-- {% block header %} hedör{% endblock %} -->
   </header>
   {% for message in get_flashed_messages() %}
 {#    <div class="flash">{{ message }}</div>#}

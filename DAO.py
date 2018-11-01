@@ -5,8 +5,14 @@ from pymongo import MongoClient
 import WortexLogger as w
 import config
 
-connection = MongoClient(config.settings['DB'], 27017)
-db = connection['local']
+connection = MongoClient(
+    config.settings['DB'],
+    username=config.settings['USER'],
+    password=config.settings['PASSWORD'],
+    authSource='blog',
+    authMechanism='SCRAM-SHA-1'
+    )
+db = connection['blog']
 # Get the sampleDB database
 
 
@@ -63,4 +69,5 @@ def activate_user(code):
         if user is not None:
             collection.update_one({"activation_code":code, "email": user["email"] },{"$set": user} , upsert=False)
             w.logging.info('user: '+user["email"]+' updated! ')
+            return True
     return

@@ -11,11 +11,23 @@ import datetime
 import config
 import EmailService
 
+
+import os
+from flask import flash, request, redirect, url_for
+from werkzeug.utils import secure_filename
+
+
+#img
+from flask import send_from_directory
+import os, sys
+from PIL import Image
+
 app = flask.Flask(__name__)
 app.secret_key = '123123sdas123123sada'  # Change this!!!!!!!!!!!!!!!
 # app.debug = config.settings['DEBUG']
 # app.port = config.settings['PORT']
-
+app.config['UPLOAD_FOLDER'] = config.settings['UPLOAD_FOLDER']
+ALLOWED_EXTENSIONS = set(['txt', 'pdf', 'png', 'jpg', 'jpeg', 'gif'])
 
 
 login_manager = flask_login.LoginManager()
@@ -28,7 +40,6 @@ class User(flask_login.UserMixin):
 
 @app.route("/")
 def index():
-    #dao.get_password_for_user("qkac")
     return flask.render_template("index.html")
 
 
@@ -55,8 +66,6 @@ def request_loader(request):
     #flask.session['email'] = email
     g.user = email
 
-    # DO NOT ever store passwords in plaintext and always compare password
-    # hashes using constant-time comparison!
     password_input = flask.request.form['password']
     password_in_db = dao.get_password_for_user(email)
     user.is_authenticated = PasswordHasher.check_hashed_passwords(password_input, password_in_db)
@@ -98,9 +107,12 @@ def logout():
 def unauthorized_handler():
     return 'Unauthorized'
 
-@app.route('/users/me')
+
+
+
+@app.route('/profile')
 @flask_login.login_required
-def my_profile():
+def profile():
     email = flask_login.current_user.get_id()
 
     #email = flask.session['email']
@@ -119,8 +131,8 @@ def register():
         user['email'] = form.email.data
         user['password'] = PasswordHasher.get_hashed_pasword(form.password.data)
         user['activation_code'] = PasswordHasher.get_hashed_pasword(user['name'] + "luckyLuck2")
-        EmailService.send_activation_code(user['email'],user['activation_code'])
-        success = dao.save_user(user)
+        #EmailService.send_activation_code(user['email'],user['activation_code']) its working 
+        success = dao.save_user(user) 
         email = user['email']
         if success: flask.flash('Thanks for registering')
         else: return "error during registration"
@@ -191,6 +203,63 @@ def eggs_add():
 def activate():
     code = flask.request.args.get("code")
 
-    dao.activate_user(code)
-
+    if dao.activate_user(code):
+        #siekres
+        pass
+    #sikertelen
     return "activated"
+
+
+def allowed_file(filename):
+    return '.' in filename and \
+           filename.rsplit('.', 1)[1].lower() in ALLOWED_EXTENSIONS
+
+@app.route('/upload', methods=['GET', 'POST'])
+def upload_file():
+    if request.method == 'POST':
+        # check if the post request has the file part
+        if 'file' not in request.files:
+            flash('No file part')
+            return redirect(request.url)
+        file = request.files['file']
+        # if user does not select file, browser also
+        # submit an empty part without filename
+        if file.filename == '':
+            flash('No selected file')
+            return redirect(request.url)
+        if file and allowed_file(file.filename):
+            filename = secure_filename(file.filename)
+            file.save(os.path.join(app.config['UPLOAD_FOLDER'], filename))
+            resize_picture(app.config['UPLOAD_FOLDER']+'/'+filename)
+            return redirect(url_for('uploaded_file',
+                                    filename=filename))
+    return '''
+    <!doctype html>
+    <title>Upload new File</title>
+    <h1>Upload new File</h1>
+    <form method=post enctype=multipart/form-data>
+      <input type=file name=file>
+      <input type=submit value=Upload>
+    </form>
+    '''
+
+
+
+@app.route('/uploads/<filename>')
+def uploaded_file(filename):
+    return send_from_directory(app.config['UPLOAD_FOLDER'],
+                               filename)
+
+
+
+
+
+def resize_picture(infile):
+    size = 128, 128
+    try:
+        im = Image.open(infile)
+        im.thumbnail(size, Image.ANTIALIAS)
+        im.save(infile)
+    except IOError:
+        WortexLogger.logging.info("cannot create thumbnail for '%s'" % infile)
+
